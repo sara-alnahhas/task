@@ -1,0 +1,263 @@
+  body {
+    overflow-x: hidden;
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: black;
+     background-image:url('back3.jpg');
+    background-repeat: no-repeat ;
+    backface-visibility: hidden ;
+    background-size: cover;
+    background-attachment: fixed; 
+    
+  }
+
+  h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  h4 {
+    
+    line-height: 1.375em;
+    color: black;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }  
+/*------------- Navigation Bar --------- */
+  .navbar {
+    margin-bottom: 0;
+    background-color: white;
+    z-index: 9999;
+    border: 0;
+    text-transform: uppercase;
+    font-size: 14px !important;
+    font-weight: 400;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: black !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: rgba(222, 184, 135, 0.72) !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+/*------- End Navigation Bar -------- */
+
+/*------------ Home -----------*/
+
+  .jumbotron {
+      width: 100%;
+    max-width: 100% ;
+    background-image:url('back3.jpg');
+    background-repeat: no-repeat ;
+    backface-visibility: hidden ;
+    background-size: cover;
+   background-attachment: fixed; 
+    color: black;
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+  }
+
+
+
+/*------ MENU  Section ------*/
+.caption h1 {
+    font-size: 4rem ;
+    font-weight: 600;
+    text-shadow: .1rem .1rem .3rem black ;
+    letter-spacing: .3rem;
+      padding-bottom: 1rem  
+}
+.caption h3 {
+    font-size: 2.5rem ;
+    text-shadow: .1rem .1rem .1rem black ;
+    padding-bottom: 1.6rem;
+}
+
+.caption {
+     margin-top: -1%;
+    width: 100%;
+    max-width: 100% ;
+    background-image:linear-gradient(rgb(0,0,0,0.0),rgb(0,0,0,.3)),url('menuBackk.jpg');
+    background-repeat: no-repeat ;
+    backface-visibility: hidden ;
+    background-size: cover;
+    background-attachment: fixed; 
+    color: white;
+    padding: 90px 70px;
+    z-index: 1 ;
+    text-transform: uppercase;
+    
+}
+.btn-lg {
+    border-width: medium;
+    border-radius: 0;
+    border-color: white;
+    padding: .6rem 1.3rem;
+    
+}
+.caption a {
+    font-size: 1.5rem;
+    color: black;
+    background-color: white;
+}
+.caption a:hover {
+    font-size: 1.7rem;
+    color: black;
+    background-color: white;
+    border-color: black;
+    border-width: medium;
+}
+
+}
+.heading {
+   
+    font-family: monospace;
+    font-size: 5rem;
+    font-weight:400;
+     text-shadow: .1rem .1rem .3rem black ;
+    letter-spacing: .9rem;
+    
+    
+}
+.menu h1 {
+    margin-top: 7%;
+    letter-spacing: .8rem;
+}
+.feature h3 {
+    text-decoration: underline;
+    margin-bottom: 3px;
+    text-transform: uppercase
+}
+.feature {
+    margin: 3%;
+}
+
+.category{
+     
+    font-size: 3rem;
+    font-weight:300;
+    letter-spacing: .5rem;
+    background-color: rgba(0, 0, 0, 0.57);
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+/*------ end Menu ------*/
+
+
+/*--------- ABOUT -------*/
+.caption2 {
+   margin-top: 1%;
+    
+   width: 100%;
+    max-width: 100% ;
+    background-image:linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,.5)),url('aboutback.jpg');
+    background-repeat: no-repeat ;
+    backface-visibility: hidden ;
+    background-size: cover;
+    background-attachment: fixed; 
+    
+    letter-spacing: .7rem;
+    color: black;
+    font-stretch: extra-expanded;
+    padding: 60px 50px;
+    z-index: 1 ;
+    text-transform: uppercase;
+}
+
+/* ------------ End about --------*/
+
+/*-------------- Reviews and Content -----*/
+
+  .container-fluid {
+    padding: 60px 50px;
+      
+  }
+
+  .bg-grey {
+    background-color: rgba(255, 255, 255, 0.88);
+      margin-top: 1%;
+  }
+  
+  
+  .carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #f4511e;   /*  fill the ashom */
+  }
+  .carousel-indicators li {
+    border-color: #000000;  /*  fill the border of the points */
+  }
+  .carousel-indicators li.active {
+    background-color: #f4511e;  /*  fill the small points */
+  }
+  .item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+  }
+  .item span {
+    font-style: normal;
+  }
+ 
+ footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f4511e;
+  }
+ 
+  .slideanim {visibility:hidden;}
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+      font-size: 150px;
+    }
+  }
+/*-----------------------*/
